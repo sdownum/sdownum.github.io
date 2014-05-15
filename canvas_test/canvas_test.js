@@ -7,7 +7,11 @@ function debug_print(msg)
 function main()
 {
 	var canvas,
-		context2d;
+		context2d,
+		index,
+		width,
+		pos_y,
+		pos_x;
 
 	debug_print('main');
 
@@ -24,6 +28,26 @@ function main()
 	debug_print('Writing message...');	
 	context2d.fillText('Hello, World!', 10, 10);
 	context2d.save();
+
+	debug_print('Drawing map...');	
+
+	index = 20;
+	width = 5;
+	pos_y = 40;
+	pos_x = 22
+
+	for (i = 1; i <= index; i++) {
+		context2d.fillText('.', pos_x, pos_y);
+		pos_x += 12;
+
+		if (i % width == 0) {
+			pos_y += 12;
+			pos_x = 22;
+		}
+	}
+	context2d.fillText('@', pos_x, 44);
+	context2d.save();
+
 
 	debug_print('Render complete.');	
 }
