@@ -7,7 +7,7 @@
 ## May 2014
 
 ## Sun, 25 May 2014
-* RPI Network Bridge: Attempting bridging with seperately powered dongle and ethernet connection to AT.
+* RPI Network Bridge: Attempted bridging with seperately powered dongle and ethernet connection to AT failed. The board powers down the wifi dongle once the ethernet port establishes a link. Need to test this with rpi at work. Will take AT setup to work on Tuesday to test.
 
 ### Sat, 24 May 2014
 * Reinstalled the development laptop with Ubuntu 4.14
