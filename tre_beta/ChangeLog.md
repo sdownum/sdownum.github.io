@@ -6,6 +6,11 @@
 
 ## May 2014
 
+## Tue, 27 May 2014
+* RPI Network Bridge: More success with the work rpi. However, there may be a voltage issue with the micro USB power cable I use at home vs. the one for work, the one with the IG and the one shipped with the AT. I have noticed a more stable system switching the cables with the rpi here at home. It appears bridging will work. However, I am considering moving all networking equipment into the bedroom, thus negating the need for the bridge. I've lost too much time testing Sitara code mucking with a perfect wireless solution. 
+
+* AT Wireless: As per the forums, I tried to use the wireless dongle with the AT using the GUI app to manage it - No success, but that may be due to the SSID not being published, which is sometimes a problem with wicd.
+
 ## Sun, 25 May 2014
 * RPI Network Bridge: Attempted bridging with seperately powered dongle and ethernet connection to AT failed. The board powers down the wifi dongle once the ethernet port establishes a link. Need to test this with rpi at work. Will take AT setup to work on Tuesday to test.
 
@@ -33,4 +38,4 @@
 * bbb - BeagleBone Black
 * rpi - Raspberry Pi
 * rtl - Realtek
-
+* IG  - Intel Galileo
