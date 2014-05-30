@@ -6,6 +6,9 @@
 
 ## May 2014
 
+## Tue, 29 May 2014
+* Sitara Examples - Ported and tested the Blink sketch. Added to git and notes added to shared doc. Hope to wrap up the last of the Basic section tomorrow.
+
 ## Tue, 27 May 2014
 * RPI Network Bridge: More success with the work rpi. However, there may be a voltage issue with the micro USB power cable I use at home vs. the one for work, the one with the IG and the one shipped with the AT. I have noticed a more stable system switching the cables with the rpi here at home. It appears bridging will work. However, I am considering moving all networking equipment into the bedroom, thus negating the need for the bridge. I've lost too much time testing Sitara code mucking with a perfect wireless solution. 
 
